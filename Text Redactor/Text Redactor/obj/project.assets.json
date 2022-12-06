@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\source\\repos\\TextRedactor\\Text Redactor\\Text Redactor\\Text Redactor.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\source\\repos\\v\\Text Redactor\\Text Redactor\\Text Redactor.csproj",
       "projectName": "Text Redactor",
-      "projectPath": "C:\\Users\\asus\\source\\repos\\TextRedactor\\Text Redactor\\Text Redactor\\Text Redactor.csproj",
+      "projectPath": "C:\\Users\\asus\\source\\repos\\v\\Text Redactor\\Text Redactor\\Text Redactor.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\source\\repos\\TextRedactor\\Text Redactor\\Text Redactor\\obj\\",
+      "outputPath": "C:\\Users\\asus\\source\\repos\\v\\Text Redactor\\Text Redactor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

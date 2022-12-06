@@ -20,6 +20,10 @@ namespace Text_Redactor
     /// </summary>
     public partial class MainWindow : Window
     {
+        private void Func1()
+        {
+
+        }
         public MainWindow()
         {
             InitializeComponent();
