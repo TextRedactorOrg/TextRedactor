@@ -1,0 +1,21 @@
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\bin\Debug\net6.0-windows\Text Redactor.exe
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\bin\Debug\net6.0-windows\Text Redactor.deps.json
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\bin\Debug\net6.0-windows\Text Redactor.runtimeconfig.json
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\bin\Debug\net6.0-windows\Text Redactor.dll
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\bin\Debug\net6.0-windows\Text Redactor.pdb
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor_MarkupCompile.cache
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor_MarkupCompile.lref
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.g.resources
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.AssemblyInfo.cs
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.dll
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\refint\Text Redactor.dll
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.pdb
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.genruntimeconfig.cache
+C:\Users\asus\source\repos\TextRedactor\Text Redactor\Text Redactor\obj\Debug\net6.0-windows\ref\Text Redactor.dll
