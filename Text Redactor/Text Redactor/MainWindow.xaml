@@ -8,6 +8,28 @@
         
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <RichTextBox></RichTextBox>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <ToolBar x:Name="tbControls" Grid.Row="0">
+            <Button x:Name="btNew" Click="btNew_Click">
+                <Image Source="graphics\toolbar\new.png"/>
+            </Button>
+            <Button x:Name="btOpen" Click="btOpen_Click">
+                <Image Source="graphics\toolbar\open.png"/>
+            </Button>
+            <Button x:Name="btSave" Click="btSave_Click">
+                <Image Source="graphics\toolbar\save.png"/>
+            </Button>
+            <Button x:Name="btSaveas" Click="btSaveas_Click">
+                <Image Source="graphics\toolbar\saveas.png"/>
+            </Button>
+        </ToolBar>
+
+        <DockPanel Name="TextPanel" Grid.Row="1">
+            <RichTextBox Name="rtbText" Grid.Column="1"/>
+        </DockPanel>
     </Grid>
 </Window>

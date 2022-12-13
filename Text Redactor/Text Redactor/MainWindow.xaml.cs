@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +25,26 @@ namespace Text_Redactor
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btNew_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btOpen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btSave_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btSaveas_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
