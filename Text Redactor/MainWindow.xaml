@@ -29,7 +29,7 @@
         </ToolBar>
 
         <DockPanel Name="TextPanel" Grid.Row="1">
-            <RichTextBox Name="rtbText" Grid.Column="1"/>
+            <RichTextBox Name="rtbText" Grid.Column="1" TextChanged="rtbText_TextChanged"/>
         </DockPanel>
     </Grid>
 </Window>
