@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using IronPdf;
 
 namespace Text_Redactor
 {
@@ -144,11 +145,37 @@ namespace Text_Redactor
 
             dlg.Filter = "All Files (*.*)|*.*|Text Files (*.txt)|*.txt|Pdf Files (*.pdf)|*.pdf|Rtf Files (*.rtf)|*.rtf";
             dlg.FilterIndex = 2;
-            dlg.FileName = fileName;
+            //dlg.FileName = fileName;
+            
+           
             bool? res = dlg.ShowDialog();
             if (res.HasValue && res.Value)
             {
-                File.WriteAllText(dlg.FileName, new TextRange(rtbText.Document.ContentStart, rtbText.Document.ContentEnd).Text); 
+                FileInfo fileInfo = new FileInfo(dlg.FileName);
+                string ext = fileInfo.Extension;
+                switch (ext)
+                {
+                    case ".rtf":
+                        {
+                            SaveToRtf(dlg.FileName);
+                            break;
+                        }
+                    case ".pdf":
+                        {
+                            PrintDialog pd = new PrintDialog();
+                            if (pd.ShowDialog() == true)
+                            {
+                                IDocumentPaginatorSource idp = rtbText.Document;
+                                pd.PrintDocument(idp.DocumentPaginator, "Document");
+                            }
+                            break;
+                        }
+                    default:
+                        {
+                            File.WriteAllText(dlg.FileName, new TextRange(rtbText.Document.ContentStart, rtbText.Document.ContentEnd).Text);
+                            break;
+                        }
+                }
                 saved = true;
 
             }

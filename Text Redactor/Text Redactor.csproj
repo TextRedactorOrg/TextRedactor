@@ -31,4 +31,8 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="IronPdf" Version="2022.11.10347" />
+  </ItemGroup>
+
 </Project>
