@@ -26,6 +26,9 @@
             <Button x:Name="btSaveas" Click="btSaveas_Click">
                 <Image Source="graphics\toolbar\saveas.png"/>
             </Button>
+            <Button x:Name="btFont" Click="btFont_Click">
+                <Image Source="graphics\toolbar\font.png"/>
+            </Button>
         </ToolBar>
 
         <DockPanel Name="TextPanel" Grid.Row="1">

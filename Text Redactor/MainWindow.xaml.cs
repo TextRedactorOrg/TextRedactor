@@ -186,5 +186,10 @@ namespace Text_Redactor
         {
             saved = false;
         }
+
+        private void btFont_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
