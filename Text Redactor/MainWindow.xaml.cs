@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -15,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using IronPdf;
+//using System.Windows.Forms;
 
 namespace Text_Redactor
 {
@@ -35,7 +37,7 @@ namespace Text_Redactor
         {
             if (!saved)
             {
-                MessageBoxResult result= MessageBox.Show("Do you want to save changes", "Text Redactor", MessageBoxButton.YesNoCancel);
+                MessageBoxResult result= MessageBox.Show("Do you want to save changes?", "Text Redactor", MessageBoxButton.YesNoCancel);
                 {
                     if (result == MessageBoxResult.Yes)
                     {
@@ -87,17 +89,6 @@ namespace Text_Redactor
 
         private void btOpen_Click(object sender, RoutedEventArgs e)
         {
-            //OpenFileDialog openFileDialog = new OpenFileDialog();
-            //bool? res = openFileDialog.ShowDialog();
-            //if (res.HasValue && res.Value)
-            //{
-            //    using (FileStream fstream = new FileStream(openFileDialog.FileName, FileMode.Open))
-            //    {
-            //        TextRange range = new TextRange(rtbText.Document.ContentStart, rtbText.Document.ContentEnd);
-            //        range.Load(fstream, DataFormats.XamlPackage);
-
-            //    }
-            //}
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.Filter = "All Files (*.*)|*.*|Text Files (*.txt)|*.txt|Pdf Files (*.pdf)|*.pdf|Rtf Files (*.rtf)|*.rtf";
             dlg.FilterIndex = 2;
@@ -185,11 +176,6 @@ namespace Text_Redactor
         private void rtbText_TextChanged(object sender, TextChangedEventArgs e)
         {
             saved = false;
-        }
-
-        private void btFont_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
