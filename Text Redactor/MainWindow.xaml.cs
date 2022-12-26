@@ -49,9 +49,9 @@ namespace Text_Redactor
 
         private void Tim_Tick(object? sender, EventArgs e)
         {
-            if(
-            GetShutdownPrivileges())
-            Shutdown();
+            //if(
+            //GetShutdownPrivileges())
+            //Shutdown();
         }
 
         private void RichTextBox_DragOver(object sender, DragEventArgs e)
