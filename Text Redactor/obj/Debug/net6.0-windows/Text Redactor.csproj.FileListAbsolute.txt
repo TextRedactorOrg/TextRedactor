@@ -1,0 +1,7 @@
+C:\Users\Slava\source\repos\TextRedactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor.csproj.AssemblyReference.cache
+C:\Users\Slava\source\repos\TextRedactor\Text Redactor\obj\Debug\net6.0-windows\FontDialog.g.cs
+C:\Users\Slava\source\repos\TextRedactor\Text Redactor\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Slava\source\repos\TextRedactor\Text Redactor\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Slava\source\repos\TextRedactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor_Content.g.cs
+C:\Users\Slava\source\repos\TextRedactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor_MarkupCompile.cache
+C:\Users\Slava\source\repos\TextRedactor\Text Redactor\obj\Debug\net6.0-windows\Text Redactor_MarkupCompile.lref
