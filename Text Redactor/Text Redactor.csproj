@@ -7,26 +7,95 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <UseWindowsForms>False</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="graphics\toolbar\blank.png" />
+    <None Remove="graphics\toolbar\copy.png" />
+    <None Remove="graphics\toolbar\cut.png" />
+    <None Remove="graphics\toolbar\font.png" />
+    <None Remove="graphics\toolbar\growfont.png" />
+    <None Remove="graphics\toolbar\listbullets.png" />
+    <None Remove="graphics\toolbar\listnumbering.png" />
     <None Remove="graphics\toolbar\new.png" />
     <None Remove="graphics\toolbar\open.png" />
+    <None Remove="graphics\toolbar\paragraphcenter.png" />
+    <None Remove="graphics\toolbar\paragraphdecreaseidentation.png" />
+    <None Remove="graphics\toolbar\paragraphfull.png" />
+    <None Remove="graphics\toolbar\paragraphincreaseidentation.png" />
+    <None Remove="graphics\toolbar\paragraphleft.png" />
+    <None Remove="graphics\toolbar\paragraphright.png" />
+    <None Remove="graphics\toolbar\paste.png" />
+    <None Remove="graphics\toolbar\redo.png" />
     <None Remove="graphics\toolbar\save.png" />
     <None Remove="graphics\toolbar\saveas.png" />
+    <None Remove="graphics\toolbar\shrinkfont.png" />
+    <None Remove="graphics\toolbar\undo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="graphics\toolbar\blank.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\copy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\cut.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\font.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\growfont.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\listbullets.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\listnumbering.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="graphics\toolbar\new.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="graphics\toolbar\open.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="graphics\toolbar\paragraphcenter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\paragraphdecreaseidentation.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\paragraphfull.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\paragraphincreaseidentation.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\paragraphleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\paragraphright.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\paste.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\redo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="graphics\toolbar\save.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="graphics\toolbar\saveas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\shrinkfont.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graphics\toolbar\undo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
