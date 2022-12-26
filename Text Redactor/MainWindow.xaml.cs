@@ -87,12 +87,17 @@ namespace Text_Redactor
                                     Clipboard.SetDataObject(orgdata);
                                     break;
                                 }
+                            default:
+                                {
+                                    range = new TextRange(rtbText.Document.ContentStart, rtbText.Document.ContentEnd);
+                                    fStream = new FileStream(docPath[0], FileMode.OpenOrCreate);
+                                    range.Load(fStream, dataFormat);
+                                    fStream.Close();
+                                    break;
+                                }
                                 
                         }
-                        range = new TextRange(rtbText.Document.ContentStart, rtbText.Document.ContentEnd);
-                        fStream = new FileStream(docPath[0], FileMode.OpenOrCreate);
-                        range.Load(fStream, dataFormat);
-                        fStream.Close();
+                        
                     }
                     catch (Exception)
                     {
