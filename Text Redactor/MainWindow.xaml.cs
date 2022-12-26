@@ -101,7 +101,7 @@ namespace Text_Redactor
                     }
                     catch (Exception)
                     {
-                        MessageBox.Show("File could not be opened");
+                        MessageBox.Show("File could not be opened.");
                     }
                 }
             }
@@ -112,7 +112,7 @@ namespace Text_Redactor
         {
             if (!saved)
             {
-                MessageBoxResult result = MessageBox.Show("Do you want to save changes", "Text Redactor", MessageBoxButton.YesNoCancel);
+                MessageBoxResult result = MessageBox.Show("Do you want to save changes?", "Text Redactor", MessageBoxButton.YesNoCancel);
                 {
                     if (result == MessageBoxResult.Yes)
                     {
